@@ -28,7 +28,7 @@ Reliquary isn't published to the VS Code Marketplace yet, but it installs from s
 **Prerequisites:** VS Code 1.70 or later, and Node.js installed (only needed for the `npx` packaging step below; the theme itself has no runtime dependencies).
 
 ```bash
-git clone https://github.com/The-Freehold-Foundry/reliquary-vscode-theme.git
+git clone https://github.com/Freehold-Foundry/reliquary-vscode-theme.git
 cd reliquary-vscode-theme
 npx --yes @vscode/vsce package --allow-missing-repository
 code --install-extension reliquary-theme-0.2.0.vsix
@@ -80,4 +80,4 @@ Free and source-available — not OSI-approved open source. Licensed under Apach
 
 ---
 
-Reliquary is the first published output of **[The Freehold Foundry](https://github.com/The-Freehold-Foundry)**, a free and source-available initiative.
+Reliquary is the first published output of **[The Freehold Foundry](https://github.com/Freehold-Foundry)**, a free and source-available initiative.
