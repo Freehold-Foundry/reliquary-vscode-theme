@@ -1,0 +1,31 @@
+{
+  "name": "reliquary-theme",
+  "displayName": "Reliquary",
+  "description": "A jewel-tone Gothic color theme matching the Reliquary terminal scheme — multiple simultaneous jewel-tone accents instead of one.",
+  "version": "0.2.0",
+  "publisher": "freehold-foundry",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Reliquary",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reliquary-color-theme.json"
+      },
+      {
+        "label": "Reliquary Light",
+        "uiTheme": "vs",
+        "path": "./themes/reliquary-light-color-theme.json"
+      }
+    ]
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@types/react": "^19.2.18"
+  }
+}

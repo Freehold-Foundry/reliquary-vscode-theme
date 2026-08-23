@@ -1,0 +1,308 @@
+// Reliquary Light Theme for VS Studio Code
+// - A Freehold Foundry Creation
+// ----------------------------------------------------------------------------
+// Reliquary Light Palette Legend
+// ----------------------------------------------------------------------------
+//
+// NEUTRALS (light -> dark)
+//   #FAF6EC  raised/hover bg    line highlight, list hover/active bg, inputs, dropdowns
+//   #F0E6D6  base canvas        editor/tab-active bg, badge/button text ("parchment")
+//   #E4D6BE  chrome bg          activity/side/status/title bars, tabs, panels, widgets, indent guide bg
+//   #A89C8A  dim border/text    line numbers, whitespace, indent guide, placeholder, scrollbar, punctuation
+//   #5F5749  muted UI text      inactive labels (activity bar, tabs, panel titles, git ignored)
+//   #595162  muted CODE text    comments/quotes — close to #5F5749 but distinct; confirm intentional
+//   #06080F  primary foreground ("ink")
+//   #020306  bright foreground  active titles/tabs, bold markup
+//
+// GOLD ACCENT (brand)
+//   #6F521B  primary accent     borders, badges, buttons, cursor, "modified" state
+//   #4E3A13  gold hover         button hover only
+//
+// SYNTAX HUES (dark tint = UI/token here — light bg needs the darker half of each
+// pair; bright tint = terminal only, copied verbatim from Reliquary dark)
+//   green   #164D34 / #3EE0A0   added·success, strings  ·  terminal bright green
+//   red     #5C1A2E / #E45D75   deleted·error, invalid, tags  ·  terminal bright red
+//   blue    #1B3A66 / #6FB3E0   functions, links  ·  terminal bright blue
+//   purple  #3D1E5C / #B27EE8   keywords  ·  terminal bright magenta
+//   cyan    #1C5C56 / #7FE0D6   types/classes  ·  terminal bright cyan
+//
+// TERMINAL PANEL — copied verbatim from Reliquary (dark), not reskinned for light
+//   #14141A base canvas  ·  #38383E subtle border  ·  #6B4A12 dark gold (ANSI yellow)
+//   #E8C468 bright gold  ·  #FFF8EC bright foreground
+//
+// ----------------------------------------------------------------------------
+
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Reliquary Light",
+  "type": "light",
+  "colors": {
+
+    // --- Editor Core ---------------------------------------------------
+    "editor.background": "#F0E6D6",
+    "editor.foreground": "#06080F",
+    "editorLineNumber.foreground": "#A89C8A",
+    "editorLineNumber.activeForeground": "#06080F",
+    "editorCursor.foreground": "#6F521B",
+    "editor.selectionBackground": "#6F521B33",
+    "editor.selectionHighlightBackground": "#6F521B22",
+    "editor.inactiveSelectionBackground": "#6F521B1A",
+    "editor.lineHighlightBackground": "#FAF6EC",
+    "editorWhitespace.foreground": "#A89C8A",
+    "editorIndentGuide.background1": "#E4D6BE",
+    "editorIndentGuide.activeBackground1": "#A89C8A",
+    "editorGutter.background": "#F0E6D6",
+    "editorGutter.modifiedBackground": "#6F521B",
+    "editorGutter.addedBackground": "#164D34",
+    "editorGutter.deletedBackground": "#5C1A2E",
+
+    // --- Global ----------------------------------------------------------
+    "focusBorder": "#6F521B",
+    "foreground": "#06080F",
+
+    // --- Activity Bar ------------------------------------------------------
+    "activityBar.background": "#E4D6BE",
+    "activityBar.foreground": "#06080F",
+    "activityBar.inactiveForeground": "#5F5749",
+    "activityBarBadge.background": "#6F521B",
+    "activityBarBadge.foreground": "#F0E6D6",
+
+    // --- Side Bar & Lists ------------------------------------------------
+    "sideBar.background": "#E4D6BE",
+    "sideBar.foreground": "#06080F",
+    "sideBarTitle.foreground": "#020306",
+    "sideBarSectionHeader.background": "#E4D6BE",
+    "sideBarSectionHeader.foreground": "#06080F",
+    "list.activeSelectionBackground": "#FAF6EC",
+    "list.activeSelectionForeground": "#020306",
+    "list.inactiveSelectionBackground": "#E4D6BE",
+    "list.hoverBackground": "#FAF6EC",
+    "list.focusBackground": "#FAF6EC",
+    "list.highlightForeground": "#6F521B",
+
+    // --- Status Bar --------------------------------------------------------
+    "statusBar.background": "#E4D6BE",
+    "statusBar.foreground": "#06080F",
+    "statusBar.border": "#E4D6BE",
+    "statusBar.debuggingBackground": "#5C1A2E",
+    "statusBar.debuggingForeground": "#FFF8EC",
+    "statusBar.noFolderBackground": "#E4D6BE",
+    "statusBarItem.remoteBackground": "#6F521B",
+    "statusBarItem.remoteForeground": "#F0E6D6",
+    "statusBarItem.hoverBackground": "#FAF6EC",
+
+    // --- Title Bar -----------------------------------------------------
+    "titleBar.activeBackground": "#E4D6BE",
+    "titleBar.activeForeground": "#06080F",
+    "titleBar.inactiveBackground": "#E4D6BE",
+    "titleBar.inactiveForeground": "#5F5749",
+
+    // --- Tabs & Editor Groups --------------------------------------------
+    "tab.activeBackground": "#F0E6D6",
+    "tab.activeForeground": "#020306",
+    "tab.activeBorderTop": "#6F521B",
+    "tab.inactiveBackground": "#E4D6BE",
+    "tab.inactiveForeground": "#5F5749",
+    "tab.border": "#E4D6BE",
+    "tab.unfocusedActiveBorderTop": "#A89C8A",
+    "editorGroupHeader.tabsBackground": "#E4D6BE",
+    "editorGroup.border": "#E4D6BE",
+
+    // --- Panels ------------------------------------------------------------
+    "panel.background": "#E4D6BE",
+    "panel.border": "#E4D6BE",
+    "panelTitle.activeForeground": "#020306",
+    "panelTitle.activeBorder": "#6F521B",
+    "panelTitle.inactiveForeground": "#5F5749",
+
+    // --- Inputs & Dropdowns ------------------------------------------------
+    "input.background": "#FAF6EC",
+    "input.foreground": "#06080F",
+    "input.border": "#E4D6BE",
+    "input.placeholderForeground": "#A89C8A",
+    "dropdown.background": "#FAF6EC",
+    "dropdown.foreground": "#06080F",
+    "dropdown.border": "#E4D6BE",
+
+    // --- Buttons & Badges ----------------------------------------------
+    "button.background": "#6F521B",
+    "button.foreground": "#F0E6D6",
+    "button.hoverBackground": "#4E3A13",
+    "button.secondaryBackground": "#FAF6EC",
+    "button.secondaryForeground": "#06080F",
+    "badge.background": "#6F521B",
+    "badge.foreground": "#F0E6D6",
+
+    // --- Scrollbar -------------------------------------------------------
+    "scrollbarSlider.background": "#A89C8A55",
+    "scrollbarSlider.hoverBackground": "#A89C8A88",
+    "scrollbarSlider.activeBackground": "#6F521B88",
+
+    // --- Widgets (suggest / hover / peek / notifications) -----------------
+    "editorWidget.background": "#E4D6BE",
+    "editorWidget.border": "#E4D6BE",
+    "editorSuggestWidget.background": "#E4D6BE",
+    "editorSuggestWidget.selectedBackground": "#FAF6EC",
+    "editorSuggestWidget.highlightForeground": "#6F521B",
+    "editorHoverWidget.background": "#E4D6BE",
+    "editorHoverWidget.border": "#E4D6BE",
+    "peekView.border": "#6F521B",
+    "peekViewEditor.background": "#F0E6D6",
+    "peekViewResult.background": "#E4D6BE",
+    "notifications.background": "#E4D6BE",
+    "notifications.foreground": "#06080F",
+
+    // --- Bracket Matching / Highlighting ------------------------------
+    "editorBracketMatch.border": "#6F521B",
+    "editorBracketHighlight.foreground1": "#3D1E5C",  // purple
+    "editorBracketHighlight.foreground2": "#1B3A66",  // blue
+    "editorBracketHighlight.foreground3": "#164D34",  // green
+    "editorBracketHighlight.foreground4": "#6F521B",  // gold
+    "editorBracketHighlight.foreground5": "#3D1E5C",  // purple (repeats level 1)
+    "editorBracketHighlight.foreground6": "#1B3A66",  // blue (repeats level 2)
+    "editorBracketHighlight.unexpectedBracket.foreground": "#5C1A2E",
+
+    // --- Git Decorations -------------------------------------------------
+    "gitDecoration.modifiedResourceForeground": "#6F521B",
+    "gitDecoration.addedResourceForeground": "#164D34",
+    "gitDecoration.untrackedResourceForeground": "#164D34",
+    "gitDecoration.deletedResourceForeground": "#5C1A2E",
+    "gitDecoration.conflictingResourceForeground": "#5C1A2E",
+    "gitDecoration.ignoredResourceForeground": "#5F5749",
+
+    // --- Terminal (copied verbatim from Reliquary dark, not reskinned) -----
+    "terminal.background": "#14141A",
+    "terminal.foreground": "#F0E6D6",
+    "terminalCursor.foreground": "#E8C468",
+    "terminal.ansiBlack": "#14141A",
+    "terminal.ansiBrightBlack": "#38383E",
+    "terminal.ansiRed": "#5C1A2E",
+    "terminal.ansiBrightRed": "#E45D75",
+    "terminal.ansiGreen": "#164D34",
+    "terminal.ansiBrightGreen": "#3EE0A0",
+    "terminal.ansiYellow": "#6B4A12",
+    "terminal.ansiBrightYellow": "#E8C468",
+    "terminal.ansiBlue": "#1B3A66",
+    "terminal.ansiBrightBlue": "#6FB3E0",
+    "terminal.ansiMagenta": "#3D1E5C",
+    "terminal.ansiBrightMagenta": "#B27EE8",
+    "terminal.ansiCyan": "#1C5C56",
+    "terminal.ansiBrightCyan": "#7FE0D6",
+    "terminal.ansiWhite": "#F0E6D6",
+    "terminal.ansiBrightWhite": "#FFF8EC"
+  },
+
+  "tokenColors": [
+    // --- Comments ------------------------------------------------------
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#595162", "fontStyle": "italic" }
+    },
+
+    // --- Keywords / Storage --------------------------------------------
+    {
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "storage",
+        "storage.type",
+        "storage.modifier",
+        "keyword.operator.new",
+        "keyword.other"
+      ],
+      "settings": { "foreground": "#3D1E5C" }
+    },
+
+    // --- Functions -------------------------------------------------------
+    {
+      "scope": ["entity.name.function", "support.function", "meta.function-call"],
+      "settings": { "foreground": "#1B3A66" }
+    },
+
+    // --- Strings ---------------------------------------------------------
+    {
+      "scope": ["string", "string.quoted", "string.template"],
+      "settings": { "foreground": "#164D34" }
+    },
+
+    // --- Constants / Numbers ---------------------------------------------
+    {
+      "scope": ["constant.numeric", "constant.language", "constant.character", "constant.other"],
+      "settings": { "foreground": "#6F521B" }
+    },
+
+    // --- Types / Classes ---------------------------------------------------
+    {
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.type",
+        "support.class",
+        "entity.other.inherited-class"
+      ],
+      "settings": { "foreground": "#1C5C56" }
+    },
+
+    // --- Variables -----------------------------------------------------
+    {
+      "scope": ["variable", "variable.parameter", "variable.other"],
+      "settings": { "foreground": "#06080F" }
+    },
+
+    // --- Punctuation / Operators -------------------------------------------
+    {
+      "scope": ["punctuation", "keyword.operator", "meta.brace"],
+      "settings": { "foreground": "#A89C8A" }
+    },
+
+    // --- Tags ------------------------------------------------------------
+    {
+      "scope": ["entity.name.tag"],
+      "settings": { "foreground": "#5C1A2E" }
+    },
+
+    // --- Attributes / Object Keys -----------------------------------------
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "meta.object-literal.key",
+        "support.type.property-name",
+        "variable.parameter.key",
+        "entity.name.tag.yaml"
+      ],
+      "settings": { "foreground": "#6F521B" }
+    },
+
+    // --- Invalid ---------------------------------------------------------
+    {
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": { "foreground": "#5C1A2E", "fontStyle": "underline" }
+    },
+
+    // --- Markdown / Markup -------------------------------------------------
+    {
+      "scope": ["markup.heading"],
+      "settings": { "foreground": "#6F521B", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["markup.bold"],
+      "settings": { "foreground": "#020306", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["markup.italic"],
+      "settings": { "fontStyle": "italic" }
+    },
+    {
+      "scope": ["markup.underline.link"],
+      "settings": { "foreground": "#1B3A66" }
+    },
+    {
+      "scope": ["markup.quote"],
+      "settings": { "foreground": "#595162", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["markup.inline.raw", "markup.fenced_code.block"],
+      "settings": { "foreground": "#164D34" }
+    }
+  ]
+}
