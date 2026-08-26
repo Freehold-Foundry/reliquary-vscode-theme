@@ -9,11 +9,15 @@ right to Sell the Software.
 
 For purposes of the foregoing, "Sell" means practicing any or all of the
 rights granted to you under the License to provide to third parties, for a
-fee or other consideration (including without limitation fees for hosting or
-consulting/support services related to the Software), a product or service
-whose value derives, entirely or substantially, from the functionality of
-the Software. Any license notice or attribution required by the License must
-also include this Commons Clause License Condition notice.
+fee or other consideration, a product or service whose value derives,
+entirely or substantially, from the functionality of the Software —
+including, without limitation, offering a hosted or managed version of the
+Software itself as a paid product. "Sell" does not include charging a fee
+for consulting, support, customization, integration, or similar services
+performed using the Software, where the fee is for that labor and expertise
+rather than for the Software's own functionality. Any license notice or
+attribution required by the License must also include this Commons Clause
+License Condition notice.
 
 Software: Freehold Foundry (all repositories under the freehold-foundry org)
 License: Apache License 2.0
