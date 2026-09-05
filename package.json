@@ -2,7 +2,7 @@
   "name": "reliquary-theme",
   "displayName": "Reliquary",
   "description": "A jewel-tone Gothic color theme matching the Reliquary terminal scheme — multiple simultaneous jewel-tone accents instead of one.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "publisher": "freehold-foundry",
   "icon": "icon.png",
   "engines": {

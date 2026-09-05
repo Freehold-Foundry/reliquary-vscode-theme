@@ -14,8 +14,6 @@ Reliquary Light carries the same richness onto a warm parchment surface, trading
 
 ## Screenshots / Preview
 
-## Screenshots / Preview
-
 ### Markdown
 ![Reliquary theme applied to a Markdown file](screenshots/reliquary_md.jpg)
 
@@ -30,7 +28,7 @@ Reliquary Light carries the same richness onto a warm parchment surface, trading
 
 Most dark themes on the Marketplace pick a single accent color, one blue or one purple, and lean on it everywhere. Reliquary gives keywords, function calls, strings, types, and errors each their own jewel tone: amethyst, sapphire, emerald, teal, ruby. A file's structure is visible at a glance instead of blurring into one color. Gold/brass is the one color reserved for *interaction*: selection, cursor, the active-tab underline, the status bar. It stays a clear signal instead of competing with the syntax colors.
 
-Reliquary shares its palette with the matching terminal prompt and Oh My Posh schemes, so a shell opened inside VS Code's integrated terminal and an external terminal window read as the same visual world.
+Reliquary shares its palette with the matching [terminal prompt and Windows Terminal colour scheme](https://github.com/Freehold-Foundry/reliquary-terminal-theme), so a shell opened inside VS Code's integrated terminal and an external terminal window read as the same visual world.
 
 ## What's included
 
@@ -39,7 +37,9 @@ Reliquary shares its palette with the matching terminal prompt and Oh My Posh sc
 
 ## Install
 
-Not yet published to the VS Code Marketplace — install from source.
+**From the Marketplace:** search for "Reliquary" in VS Code's Extensions view, or install directly from [the Marketplace listing](https://marketplace.visualstudio.com/items?itemName=freehold-foundry.reliquary-theme).
+
+**From source:**
 
 **Prerequisites:** VS Code 1.70 or later, and Node.js installed (only needed for the `npx` packaging step below; the theme itself has no runtime dependencies).
 
@@ -47,7 +47,7 @@ Not yet published to the VS Code Marketplace — install from source.
 git clone https://github.com/Freehold-Foundry/reliquary-vscode-theme.git
 cd reliquary-vscode-theme
 npx --yes @vscode/vsce package --allow-missing-repository
-code --install-extension reliquary-theme-0.2.0.vsix
+code --install-extension reliquary-theme-0.4.0.vsix
 ```
 
 > Copying this folder straight into `.vscode/extensions` will *not* register it. VS Code's extension picker reads from its own `extensions.json` manifest, and only the real install pipeline above writes to that file.
@@ -83,7 +83,7 @@ reliquary-vscode-theme/
     reliquary-light-color-theme.json  light theme: same structure, light-mode values
   examples/                           demo source files used for the screenshots above
   screenshots/                        theme screenshots embedded in this README
-  .github/badges/                     self-hosted README badge SVGs
+  .github/badges/                     self-hosted README badges (PNG, with SVG sources kept alongside)
   LICENSE                             Apache 2.0, modified by the Commons Clause
   README.md
 ```
@@ -100,4 +100,4 @@ Free and source-available — not OSI-approved open source. Licensed under Apach
 
 ![The Freehold Foundry](https://raw.githubusercontent.com/Freehold-Foundry/reliquary-vscode-theme/master/.github/badges/foundry-creation-badge-mark.png)
 
-Reliquary is the first published output of **[The Freehold Foundry](https://github.com/Freehold-Foundry)**, a free and source-available initiative.
+Reliquary is the first **[Freehold Foundry Project](https://github.com/Freehold-Foundry)**, a free and source-available initiative.

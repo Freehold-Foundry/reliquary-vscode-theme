@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="152" height="28" viewBox="0 0 152 28" role="img" aria-label="Version: v0.3.0">
-  <title>Version: v0.3.0</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="28" viewBox="0 0 152 28" role="img" aria-label="Version: v0.4.0">
+  <title>Version: v0.4.0</title>
   <path d="M4,0 L80,0 L80,28 L0,28 L0,4 Z" fill="#201F24" stroke="#2A2831" stroke-width="1"/>
   <path d="M80,0 L152,0 L152,24 L148,28 L80,28 Z" fill="#18181C" stroke="#2A2831" stroke-width="1"/>
   <rect x="79.5" y="0" width="1" height="28" fill="#C9A24B"/>
@@ -8,5 +8,5 @@
         font-size="11" letter-spacing="1.2" fill="#948C7E">VERSION</text>
   <text x="116" y="15" text-anchor="middle" dominant-baseline="central"
         font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', monospace"
-        font-size="11" letter-spacing="1.2" fill="#E8C468">v0.3.0</text>
+        font-size="11" letter-spacing="1.2" fill="#E8C468">v0.4.0</text>
 </svg>
