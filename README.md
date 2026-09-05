@@ -6,15 +6,17 @@ A luxurious assortment of jewel tones, amethyst, sapphire, emerald, teal, and ru
 
 Reliquary Light carries the same richness onto a warm parchment surface, trading ink and graphite for cream and soft neutrals without losing any of the color.
 
+## Screenshots / Preview
+
+| Markdown | Python | TSX |
+|---|---|---|
+| ![Reliquary theme applied to a Markdown file](screenshots/reliquary_md.jpg) | ![Reliquary theme applied to a Python file](screenshots/reliquary_python.jpg) | ![Reliquary theme applied to a TSX file](screenshots/reliquary_tsx.jpg) |
+
 ## Why Reliquary exists
 
 Most dark themes on the Marketplace pick a single accent color, one blue or one purple, and lean on it everywhere. Reliquary gives keywords, function calls, strings, types, and errors each their own jewel tone: amethyst, sapphire, emerald, teal, ruby. A file's structure is visible at a glance instead of blurring into one color. Gold/brass is the one color reserved for *interaction*: selection, cursor, the active-tab underline, the status bar. It stays a clear signal instead of competing with the syntax colors.
 
 Reliquary shares its palette with the matching terminal prompt and Oh My Posh schemes, so a shell opened inside VS Code's integrated terminal and an external terminal window read as the same visual world.
-
-| Markdown | Python | TSX |
-|---|---|---|
-| ![Reliquary theme applied to a Markdown file](screenshots/reliquary_md.jpg) | ![Reliquary theme applied to a Python file](screenshots/reliquary_python.jpg) | ![Reliquary theme applied to a TSX file](screenshots/reliquary_tsx.jpg) |
 
 ## What's included
 
@@ -23,7 +25,7 @@ Reliquary shares its palette with the matching terminal prompt and Oh My Posh sc
 
 ## Install
 
-Reliquary isn't published to the VS Code Marketplace yet, but it installs from source in under a minute.
+Not yet published to the VS Code Marketplace — install from source.
 
 **Prerequisites:** VS Code 1.70 or later, and Node.js installed (only needed for the `npx` packaging step below; the theme itself has no runtime dependencies).
 
@@ -61,11 +63,13 @@ The same palette drives the 16-color integrated-terminal palette and bracket-pai
 ```
 reliquary-vscode-theme/
   package.json                        extension manifest, registers both themes
+  icon.png                            Marketplace listing icon
   themes/
     reliquary-color-theme.json        dark theme: color + syntax token definitions
     reliquary-light-color-theme.json  light theme: same structure, light-mode values
   examples/                           demo source files used for the screenshots above
   screenshots/                        theme screenshots embedded in this README
+  .github/badges/                     self-hosted README badge SVGs
   LICENSE                             Apache 2.0, modified by the Commons Clause
   README.md
 ```

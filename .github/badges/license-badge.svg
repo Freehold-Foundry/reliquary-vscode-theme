@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="234" height="28" viewBox="0 0 234 28" role="img" aria-label="License: source-available">
+  <title>License: source-available</title>
+  <!-- left segment: chamfered top-left corner only (an outer corner of the whole badge) -->
+  <path d="M4,0 L80,0 L80,28 L0,28 L0,4 Z" fill="#201F24" stroke="#2A2831" stroke-width="1"/>
+  <!-- right segment: chamfered bottom-right corner only (the other outer corner) -->
+  <path d="M80,0 L234,0 L234,24 L230,28 L80,28 Z" fill="#18181C" stroke="#2A2831" stroke-width="1"/>
+  <rect x="79.5" y="0" width="1" height="28" fill="#C9A24B"/>
+  <text x="40" y="15" text-anchor="middle" dominant-baseline="central"
+        font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', monospace"
+        font-size="11" letter-spacing="1.2" fill="#948C7E">LICENSE</text>
+  <text x="157" y="15" text-anchor="middle" dominant-baseline="central"
+        font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', monospace"
+        font-size="11" letter-spacing="1.2" fill="#F0E6D6">SOURCE-AVAILABLE</text>
+</svg>
