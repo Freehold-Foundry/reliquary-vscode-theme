@@ -1,5 +1,11 @@
 # Reliquary
 
+![License](https://raw.githubusercontent.com/Freehold-Foundry/reliquary-vscode-theme/master/.github/badges/license-badge.png)
+![Status: Stable](https://raw.githubusercontent.com/Freehold-Foundry/reliquary-vscode-theme/master/.github/badges/status-stable.png)
+![Built for VS Code](https://raw.githubusercontent.com/Freehold-Foundry/reliquary-vscode-theme/master/.github/badges/tech-vscode-built-for.png)
+![Version](https://raw.githubusercontent.com/Freehold-Foundry/reliquary-vscode-theme/master/.github/badges/version-badge.png)
+
+
 A VS Code color theme built around one idea: syntax highlighting reads better with several accents live on screen at once.
 
 A luxurious assortment of jewel tones, amethyst, sapphire, emerald, teal, and ruby, glows against a rich graphite and ink background, with warm gold marking every place your eye should land.
@@ -8,9 +14,17 @@ Reliquary Light carries the same richness onto a warm parchment surface, trading
 
 ## Screenshots / Preview
 
-| Markdown | Python | TSX |
-|---|---|---|
-| ![Reliquary theme applied to a Markdown file](screenshots/reliquary_md.jpg) | ![Reliquary theme applied to a Python file](screenshots/reliquary_python.jpg) | ![Reliquary theme applied to a TSX file](screenshots/reliquary_tsx.jpg) |
+## Screenshots / Preview
+
+### Markdown
+![Reliquary theme applied to a Markdown file](screenshots/reliquary_md.jpg)
+
+### Python
+![Reliquary theme applied to a Python file](screenshots/reliquary_python.jpg)
+
+### TSX
+![Reliquary theme applied to a TSX file](screenshots/reliquary_tsx.jpg)
+
 
 ## Why Reliquary exists
 
@@ -83,5 +97,7 @@ Issues and pull requests are welcome. This is a small, self-contained extension,
 Free and source-available — not OSI-approved open source. Licensed under Apache 2.0, modified by the Commons Clause: you can read, use, and modify this theme freely; the Commons Clause condition restricts reselling the software itself. See [`LICENSE`](./LICENSE) for the full text.
 
 ---
+
+![The Freehold Foundry](https://raw.githubusercontent.com/Freehold-Foundry/reliquary-vscode-theme/master/.github/badges/foundry-creation-badge-mark.png)
 
 Reliquary is the first published output of **[The Freehold Foundry](https://github.com/Freehold-Foundry)**, a free and source-available initiative.
